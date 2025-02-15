@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sleek Company Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="logo">SleekCo</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section with Image Slider -->
+  <section id="home" class="home-section">
+    <div class="slider">
+      <div class="slides">
+        <img src="image1.jpg" alt="Image 1" class="slide">
+        <img src="image2.jpg" alt="Image 2" class="slide">
+        <img src="image3.jpg" alt="Image 3" class="slide">
+      </div>
+      <button id="slideButton">Next</button>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery-section">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <img src="image1.jpg" alt="Gallery Image 1">
+      <img src="image2.jpg" alt="Gallery Image 2">
+      <img src="image3.jpg" alt="Gallery Image 3">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <h2>About Us</h2>
+    <p>We are a forward-thinking company dedicated to delivering innovative solutions. Our team of experts is passionate about creating value for our clients.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services-section">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="service">
+        <h3>Web Development</h3>
+        <p>We build modern, responsive, and user-friendly websites tailored to your needs.</p>
+      </div>
+      <div class="service">
+        <h3>Digital Marketing</h3>
+        <p>Boost your online presence with our data-driven marketing strategies.</p>
+      </div>
+      <div class="service">
+        <h3>Consulting</h3>
+        <p>Get expert advice to grow your business and achieve your goals.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 SleekCo. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
